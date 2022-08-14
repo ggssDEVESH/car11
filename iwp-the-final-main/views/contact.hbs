@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caarz</title>
+
+  {{!-- Google Fonts --}}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  {{!-- Stylesheets --}}
+  <!-- <link rel="stylesheet" href="/css/booking.css"> -->
+
+</head>
+
+
+<body>
+
+
+
+
+  {{!-- Contact Form --}}
+  <div id="servicebook">
+
+
+    <h5 class="modal-title" id="exampleModalLabel">Submit feedback</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <div class="modal-body">
+      <form id="contactForm" action="/contact" method="post">
+        <div class="form-group">
+          <label class="col-form-label">Name</label>
+          <input type="text" class="form-control" id="username" name="name" placeholder="John">
+        </div>
+
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" class="form-control" id="useremail" name="email" placeholder="name@gmail.com">
+        </div>
+
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+
+        <button type="submit" id="contactSubmit" class="btn btn-secondary">Submit</button>
+
+
+
+      </form>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

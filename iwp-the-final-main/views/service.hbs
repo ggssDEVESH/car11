@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caarz</title>
+
+  {{!-- Google Fonts --}}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  {{!-- Stylesheets --}}
+  <link rel="stylesheet" href="/css/infoStyle.css">
+
+</head>
+
+
+<body>
+
+
+
+
+  {{!-- Contact Form --}}
+  <div id="servicebook">
+
+
+    <h2 class="modal-title" id="exampleModalLabel">Book a service</h2>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <div class="modal-body">
+      <form id="bookService" action="/services" method="post">
+
+        <div class="form-group">
+          <label class="col-form-label">Name</label>
+          <input type="text" class="form-control" id="username" name="customerName" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" class="form-control" id="useremail" name="customerEmail" placeholder="xxxxxx@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" class="form-control" id="userphone" name="customerPhone" placeholder="7680030135" pattern="[0-9]{10}" required>
+        </div>
+
+        <div class="form-group">
+          <label>Model</label>
+          <input type="text" class="form-control" id="usermodel" name="customerModel" placeholder="Enter your car model">
+        </div>
+
+        <div class="form-group">
+          <label>Type</label>
+          <input type="text" class="form-control" id="usertype" name="customerType" placeholder=" Enter your car type service">
+        </div>
+
+        <div class="form-group">
+          <label>Done</label>
+          <input type="text" class="form-control" id="userdone" name="customerDone" placeholder="no" disabled>
+        </div>
+
+
+    </div>
+
+
+
+    <button type="submit" id="contactSubmit" class="btn btn-secondary">Submit</button>
+
+
+
+    </form>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

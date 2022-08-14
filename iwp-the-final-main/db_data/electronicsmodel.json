@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da85"
+  },
+  "title": "HeadLights",
+  "price": 2200,
+  "priceStr": "2,200",
+  "imagePath": "images/e1.jpeg"
+}]
+
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da86"
+  },
+  "title": "Sun protector",
+  "price": 1900,
+  "priceStr": "1,900",
+  "imagePath": "images/e2.jpeg"
+}]
+
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da87"
+  },
+  "title": "Air Intakes",
+  "price": 5210,
+  "priceStr": "5,210",
+  "imagePath": "images/e3.jpeg"
+}]
+
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da88"
+  },
+  "title": "Wheels",
+  "price": 21000,
+  "priceStr": "21,000",
+  "imagePath": "images/e4.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da89"
+  },
+  "title": "wiper blades",
+  "price": 1700,
+  "priceStr": "1,700",
+  "imagePath": "images/e5.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da8a"
+  },
+  "title": "sun shade",
+  "price": 29000,
+  "priceStr": "2,900",
+  "imagePath": "images/e6.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da8b"
+  },
+  "title": "chrome",
+  "price": 8100,
+  "priceStr": "8,100",
+  "imagePath": "images/e7.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da8c"
+  },
+  "title": "bumper gaurds",
+  "price": 11000,
+  "priceStr": "11,000",
+  "imagePath": "images/e8.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da8d"
+  },
+  "title": "steering cover",
+  "price": 6000,
+  "priceStr": "6,000",
+  "imagePath": "images/e9.jpeg"
+}]
+[{
+  "_id": {
+    "$oid": "619e84e353d107e0f4a9da8e"
+  },
+  "title": "body cover",
+  "price": 5000,
+  "priceStr": "5,000",
+  "imagePath": "images/e10.jpg"
+}]
